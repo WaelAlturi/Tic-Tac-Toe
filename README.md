@@ -40,4 +40,4 @@ The game logic is implemented in the `script.js` file. It handles player turns, 
 
 ## Credits
 
-This project was created by Wael Alturi. It is hosted on [GitHub](https://github.com/waelalturi/Tic-Tac-Toe).
+This project was created by Wael Alturi. It is hosted on [GitHub](https://github.com/waelalturi).
