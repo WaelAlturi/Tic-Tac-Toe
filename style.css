@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-size: 3rem;
+  border-bottom: 1px solid;
+}
+main {
+}
+.cells {
+  display: grid;
+  grid: repeat(3, 8rem) / auto-flow;
+  background-color: aqua;
+  border: 2px solid;
+}
+.cells div {
+  width: 100px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.status {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.status button {
+  font-size: 1.4rem;
+  color: aliceblue;
+  background-color: gray;
+  border: 1px solid;
+  cursor: pointer;
+}
+.status button:hover {
+  background-color: orange;
+  color: black;
+}
+.status h4 {
+  padding-right: 7rem;
+  font-size: 1.4rem;
+  color: coral;
+}
